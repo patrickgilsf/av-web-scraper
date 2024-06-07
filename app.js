@@ -8,7 +8,7 @@ let q = new Qsys({
   password: Creds.QSC.PW,
   ip: "", //add ip of q-sys here
   options: {
-    headless: true //switch headless to false to see browser activity
+    headless: false //switch headless to false to see browser activity
   }
 });
 
@@ -47,4 +47,6 @@ const deviceData = async () => {
 }
 
 let devices = await deviceData();
-console.log(devices);
+for (let qs of devices.qsysData) {
+  console.log(qs)
+}

@@ -9,14 +9,14 @@
 
 1. clone repo
 2. install dependencies with `npm install`
-3. create .env file, add login info:
+3. create `.env` file, add login info:
 
   ```js
-    qUN=""
+    qUN="" //qys username and pw
     qPW=""
-    lUN=""
+    lUN="" //logitech username and pw
     lPW=""
-    dUN=""
+    dUN="" //dten username and pw
     dPW=""
   ```
 
